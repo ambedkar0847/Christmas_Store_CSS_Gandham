@@ -12,9 +12,10 @@ header {
   left: 0;
   width: 100%;
   background-color: goldenrod;
-  height:  40px;
+  height: 40px;
 }
-#content{
+
+#content {
   padding-top: 40px;
   text-align: center;
   height: calc(100% - 50px);
@@ -47,7 +48,7 @@ a {
   padding: 10px 50px;
   display: flex;
   margin-bottom: 10px;
- background-color: rgb(210, 157, 43);
+  background-color: rgb(210, 157, 43);
 
 }
 
@@ -77,8 +78,8 @@ ul.navbar_style li a:active {
 
 .product-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; 
-  gap: 80px; 
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 80px;
   margin-top: 20px;
 }
 
@@ -86,10 +87,6 @@ ul.navbar_style li a:active {
   color: blue;
   font-size: 24px;
   margin-top: 10px;
-}
-#image{
-  width: 200;
-  height: 200;
 }
 
 .product-card {
@@ -165,7 +162,7 @@ h1 {
   margin-top: 10px;
 }
 
-#sub_header{
+#sub_header {
   color: black;
   font-size: 24px;
 }
@@ -187,7 +184,7 @@ footer {
 }
 
 main {
-  margin-top: 60px; 
+  margin-top: 60px;
 }
 
 .form-container {
@@ -235,7 +232,7 @@ textarea {
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  background-color: lightblue; 
+  background-color: lightblue;
 }
 
 input[type="submit"] {
@@ -246,6 +243,7 @@ input[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
 }
+
 textarea {
   height: 120px;
 }
@@ -301,6 +299,7 @@ thead th {
 tbody tr:nth-child(even) {
   background-color: lightblue;
 }
+
 tbody tr:nth-child(odd) {
   background-color: white;
 }
@@ -308,6 +307,7 @@ tbody tr:nth-child(odd) {
 tr {
   border: 1px solid black;
 }
+
 td {
   padding: 5px;
   border: 1px solid black;
@@ -316,8 +316,3 @@ td {
 tbody tr:hover {
   background-color: #ddd;
 }
-
-/* td {
-  padding: 10px;
-  border: 1px solid #ccc;
-} */

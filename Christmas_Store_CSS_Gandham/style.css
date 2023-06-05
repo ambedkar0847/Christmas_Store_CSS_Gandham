@@ -1,0 +1,323 @@
+body {
+  background-color: #fdf5bc;
+}
+
+#contact_body {
+  font-family: "Arial", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: goldenrod;
+  height:  40px;
+}
+#content{
+  padding-top: 40px;
+  text-align: center;
+  height: calc(100% - 50px);
+}
+
+nav {
+  position: relative;
+  background-color: transparent;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin-right: 50px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 50px;
+  display: flex;
+  margin-bottom: 10px;
+ background-color: rgb(210, 157, 43);
+
+}
+
+nav ul li a {
+  color: white;
+}
+
+a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+
+ul.navbar_style li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+ul.navbar_style li a:visited {
+  color: #666;
+}
+
+ul.navbar_style li a:active {
+  background-color: #aaa;
+}
+
+
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  gap: 80px; 
+  margin-top: 20px;
+}
+
+#product_header {
+  color: blue;
+  font-size: 24px;
+  margin-top: 10px;
+}
+#image{
+  width: 200;
+  height: 200;
+}
+
+.product-card {
+  background-color: #f5f5f5;
+  padding: 0px;
+  border-radius: 0px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Add additional styling for the product card */
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.product-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.product-description {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.product-price {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 10px;
+  width: 100px;
+  padding: 10px;
+  background-color: lightblue;
+}
+
+.product-card:hover {
+  transform: scale(1.25);
+}
+
+.price {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  font-weight: bold;
+  background-color: red;
+  width: 100px;
+  height: 20px;
+}
+
+
+.discount-label {
+  /* position: absolute; */
+  background-color: red;
+  width: 50px;
+  height: 30px;
+  border-radius: 40%;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h1 {
+  color: blue;
+  font-size: 34px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sub_header{
+  color: black;
+  font-size: 24px;
+}
+
+p {
+  color: black;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #d7d3b3;
+  color: black;
+  justify-content: center;
+  z-index: 9999;
+}
+
+main {
+  margin-top: 60px; 
+}
+
+.form-container {
+  position: relative;
+  background-image: url('images/contact.png');
+  background-color: rgba(255, 255, 255, 0.8);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  width: 560px;
+  margin-bottom: 200px;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+label::first-letter {
+  color: #333;
+  font-size: 1.2em;
+}
+
+input[type="text"],
+input[type="email"],
+
+textarea {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  background-color: lightblue; 
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+textarea {
+  height: 120px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#my_image {
+  margin-top: 20px;
+  padding: 10px;
+  border: 20px;
+  border-color: red;
+  border-style: solid;
+}
+
+p.highlight {
+  color: green;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+thead th {
+  background-color: rgb(100, 96, 224);
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+tbody tr:nth-child(even) {
+  background-color: lightblue;
+}
+tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+tr {
+  border: 1px solid black;
+}
+td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* td {
+  padding: 10px;
+  border: 1px solid #ccc;
+} */
